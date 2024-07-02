@@ -1,10 +1,10 @@
 # Uladzimir Daroshyn
 ## My contact info:
-Minsk, Belarus
-Phone: +37533 334-35-58
-E-mail: [doc.diesel.95@mail.ru](mailto:doc.diesel.95@mail.ru "doc.diesel.95@mail.ru")
-GitHub: [doc.diesel.92](https://github.com/DocDiesel92 "doc.diesel.92")
-Discord: docdiesel92
+* Minsk, Belarus
+* Phone: +37533 334-35-58
+* E-mail: [doc.diesel.95@mail.ru](mailto:doc.diesel.95@mail.ru "doc.diesel.95@mail.ru")
+* GitHub: [doc.diesel.92](https://github.com/DocDiesel92 "doc.diesel.92")
+* Discord: docdiesel92
 ## About me:
 I'm a driven junior front end developer with 5+ months of commercial experience. Passionate about creating engaging web experiences, i thrive on challenges and continuous learning. I'm eager to creatively contribute to dynamic environments. Seeking opportunities as a junior front end developer.
 ## Skills:
@@ -40,6 +40,6 @@ I'm a driven junior front end developer with 5+ months of commercial experience.
 
 
 English
-Level B2, i am studying and trying to improve my English level
+Level A2, i am studying and trying to improve my English level
 
 ------------

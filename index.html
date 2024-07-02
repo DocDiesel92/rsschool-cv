@@ -5,12 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
     <title>CV. Cross-Check</title>
 </head>
 <body>
     <div class="wrapper">
-        <header></header>
-        <main></main>
+        <header>
+            <div class="photo-name-prof">
+                <div class="photo"></div>
+                <div class="name-prof">
+                    <h1 class="name">Vladimir</h1>
+                    <h2 class="last-name">Doroshin</h2>
+                    <h3 class="prof">Frontend Developer</h3>
+                </div>
+            </div>
+            <div class="contact">
+                <nav>
+                    <ul class="ul-contact">
+                        <li class="li-contact">Minsk, Belarus</li>
+                        <li class="li-contact">Phone: +37533 334-35-58</li>
+                        <li class="li-contact">E-mail: doc.diesel.95@mail.ru</li>
+                        <li class="li-contact">GitHub: doc.diesel.92</li>
+                        <li class="li-contact">Discord: docdiesel92</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="profile">
+                <p>I'm a driven junior frontend developer with 5+ months of commercial experience. Passionate about creating engaging web experiences, I thrive on challenges and continuous learning. I'm eager to creatively contribute to dynamic environments. Seeking opportunities as a Junior Frontend Developer.</p>
+            </div>
+            <div class="industry">
+                <p>Industry Knowledge</p>
+                <ul>
+                    <li>cross-browser and cross-platform development</li>
+                    <li>progressive improvement and graceful degradation</li>
+                    <li>mobile development</li>
+                    <li>adaptive and responsive layout</li>
+                    <li>web fonts</li>
+                    <li>the principles of SEO optimization</li>
+                </ul>
+            </div>
+            <div class="language">
+                <p>Languages</p>
+                <ul>
+                    <li>Russia</li>
+                    <li>English - A2</li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="education">
+                <p>Education</p>
+                <ul>
+                    <li><a href="https://rs.school/" target="_blank" rel="">RS School</a> - <a href="https://docviewer.yandex.by/view/342202273/?*=JXCY%2Bx8rvIDJgDMUGmv3496t5AJ7InVybCI6InlhLWRpc2stcHVibGljOi8vemxwWmljUFBDMWlCdE5BQlBKU0psNUVQRGk3UlVLMERyL28yaENYdkZTNCtqakxxSStWTTlTb2djWDJaM0gzbXEvSjZicG1SeU9Kb25UM1ZvWG5EYWc9PSIsInRpdGxlIjoib2lhcjB3aWMucGRmIiwibm9pZnJhbWUiOmZhbHNlLCJ1aWQiOiIzNDIyMDIyNzMiLCJ0cyI6MTY0NzQyMTk5NjM4NCwieXUiOiI5MTY1ODY0MzQxNjQ1MTM4NTcxIn0%3D" target="_blank" rel="">Certificate</a></li>
+                    <li><a href="https://htmlacademy.ru/" target="_blank" rel="">htmlacademy</a></li>
+                    <li><a href="https://www.youtube.com/c/FreelancerLifeStyle/videos" target="_blank" rel="">youtube</a></li>
+                    <li><a href="https://learn.javascript.ru/" target="_blank" rel="">learn.javascript</a></li>
+                </ul>
+            </div>
+            <div class="experience">
+                <p>Experience</p>
+                <a href="https://rolling-scopes-school.github.io/wunderking-rs-JSFE2022Q3/tatto/" target="_blank" rel="">Tatto Studio</a> <p style="font-size: 10px;">2022 year</p>
+            </div>
+            <div class="skills">
+                <p>Skills</p>
+                <ul>
+                    <li>JavaScript,  Type Script</li>
+                    <li>HTML5</li>
+                    <li>CSS3 / SASS</li>
+                    <li>Experience in responsive design and cross-browser compatibility</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <div class="code-example">
+                <pre>
+                    <code>
+const codePre = document.querySelector('code');
+let i = 0;
+let text = 'This text';
+let speed = 50;
+
+    let write = () => {
+        if (i < text.length) {
+        codePre.innerHTML += text.charAt(i);
+        i++
+        setTimeout(write, speed);
+    }
+}
+write();
+                    </code>
+                </pre>
+            </div>
+        </main>
+        <footer>
+            <a href="https://github.com/DocDiesel92" target="_blank" rel="">Doc.Diesel92</a>
+            <p style="font-size: 12px;">2024 year</p>
+            <a href="https://rs.school/courses/javascript-ru" target="_blank" rel=""><img src="data:image/svg+xml,%3Csvg%20viewBox='0%200%2064%2064'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cg%20clip-path='url(%23clip0_5701_38384)'%3E%3Ccircle%20cx='32'%20cy='32'%20r='32'%20fill='black'/%3E%3Cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M13%2021.5095V42.5L19.3067%2042.4621V33.9474C20.0567%2033.9474%2020.7616%2033.9775%2021.4049%2034.4267C21.8946%2034.8785%2022.2838%2035.4335%2022.546%2036.054L25.9202%2042.4621H33C31.5957%2039.6675%2030.4706%2036.1327%2028.0552%2034.0104C27.5455%2033.6749%2026.9919%2033.4158%2026.411%2033.241C27.1873%2033.0779%2027.9357%2032.7973%2028.6319%2032.4084C30.3855%2031.3375%2031.3915%2029.3808%2031.3436%2027.3374C31.3798%2026.1328%2031.0495%2024.9466%2030.3988%2023.9441C28.9256%2021.6883%2025.9337%2021.4213%2023.4663%2021.5095H13ZM21.9939%2030.0116H19.3313V25.6975H22.1043C23.4807%2025.5594%2025.1814%2026.1754%2025.0859%2027.8041C25.1499%2029.5621%2023.3647%2029.9127%2021.9939%2030.0116Z'%20fill='%23FFB749'/%3E%3Cpath%20d='M39.4768%2035.089L33%2035.4666C33.1262%2037.3671%2034.0021%2039.16%2035.4636%2040.5088C36.9117%2041.8323%2039.5076%2042.4941%2043.2515%2042.4941C46.3564%2042.5823%2049.9058%2041.8146%2051.821%2039.1569C52.5929%2038.0934%2053.0033%2036.8427%2052.9998%2035.564C53.0217%2033.1848%2051.4339%2031.2297%2049.3044%2030.3147C47.2632%2029.4766%2045.1198%2028.8674%2042.9204%2028.5C42.1107%2028.41%2041.3327%2028.1563%2040.6423%2027.757C39.9039%2027.2597%2040.078%2026.2272%2040.735%2025.7596C42.6084%2024.5207%2045.6299%2025.5545%2045.8608%2027.9032L52.2845%2027.5621C52.1703%2025.768%2051.1844%2024.0545%2049.6356%2022.9583C47.6987%2021.8887%2045.4532%2021.3874%2043.1986%2021.5212C41.3493%2021.4527%2039.5037%2021.7218%2037.7682%2022.3128C35.6082%2023.1125%2033.829%2025.064%2033.8344%2027.4525C33.7931%2028.9377%2034.5158%2030.4088%2035.755%2031.3621C37.6454%2032.6238%2039.8325%2033.4582%2042.139%2033.798C43.3833%2033.9637%2044.5727%2034.3795%2045.6224%2035.0159C46.5878%2035.7309%2046.5807%2037.167%2045.5959%2037.8903C44.5078%2038.6532%2042.9034%2038.7416%2041.6818%2038.2468C40.3717%2037.716%2039.6048%2036.4784%2039.4768%2035.089Z'%20fill='%23FFB749'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath%20id='clip0_5701_38384'%3E%3Crect%20width='64'%20height='64'%20fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" alt="logo"></a>
+        </footer>
     </div>
 </body>
 </html>

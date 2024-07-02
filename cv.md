@@ -33,8 +33,8 @@ I'm a driven junior front end developer with 5+ months of commercial experience.
 - [youtube](https://www.youtube.com/c/FreelancerLifeStyle/videos "youtube")
 - [learn.javascript](https://learn.javascript.ru/ "learn.javascript")
 - ## Languages:
-- - Russian
-- - English
+- Russian
+- English
 
 ------------
 

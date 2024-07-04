@@ -93,6 +93,7 @@ header {
     letter-spacing: 1.29px;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .nav {
@@ -125,7 +126,7 @@ header {
 .li-active {
     color: #FAFAFA;
     transition: 0.1s;
-    border-bottom: 2.5px solid #F1CDB3;
+    border-bottom: 3px solid #F1CDB3;
 }
 
 .start-screen-content {
@@ -177,8 +178,422 @@ header {
     transition: 0.1s;
 }
 
+.btn-content:hover {
+    background: #FDDCC4;
+    transition: 0.1s;
+}
+
 .start-screen-puppy {
     width: 698px;
     height: 728px;
     background: url('assets/images/header/start-screen-puppy.png');
+}
+
+main {
+    width: 1280px;
+    height: 2538px;
+}
+
+.about {
+    padding-top: 80px;
+    width: 1280px;
+    height: 588px;
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.about-content {
+    width: 850px;
+    height: 408px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-pets {
+    width: 300px;
+    height: 408px;
+    background: url('assets/images/main/about-pets.png') no-repeat center center;
+}
+
+.content-pets {
+    width: 430px;
+    height: 380px;
+}
+
+.h3-content-pets {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 2.1px;
+    line-height: 45px;
+    color: #545454;
+}
+
+.p-content-pets,
+.p-content-pets2 {
+    padding-top: 25px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4C4C4C;
+}
+
+.pets {
+    padding-top: 80px;
+    width: 1280px;
+    height: 877px;
+    display: flex;
+    justify-content: center;
+    background: #F6F6F6;
+}
+
+.pets-content {
+    width: 1200px;
+    height: 697px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h2-heading-pets {
+	margin-right: -2px;
+	text-align: center;
+	width: 410px;
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 35px;
+	letter-spacing: 2.1px;
+    line-height: 45.4px;
+	color: #545454;
+}
+
+.slider-pets {
+    width: 1200px;
+    height: 435px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-left,
+.btn-right {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 2px solid #F1CDB3;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.btn-left:hover,
+.btn-right:hover {
+    border: 2px solid #FDDCC4;
+    background: #FDDCC4;   
+    transition: 0.1s;
+}
+
+.slider {
+    width: 990px;
+    height: 435px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-card {
+    width: 270px;
+    height: 435px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slider-card:hover {
+    background: #FFFFFF;
+}
+.slider-card:hover > .card-btn {
+    border: 2px solid #FDDCC4;
+    background: #FDDCC4;
+}
+
+.card-photo > img {
+    width: 270px;
+	height: 270px;
+}
+
+.card-name {
+    margin: 32px;
+    text-align: center;
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 20px;
+    letter-spacing: 1.29px;
+	color: #545454;
+}
+
+.card-btn {
+    width: 187px;
+	height: 52px;
+	border: 2px solid #F1CDB3;
+	border-radius: 100px;
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 17px;
+	letter-spacing: 1px;
+	color: #292929;
+	transition: 0.1s;
+    background: none;
+}
+
+.btn-pets {
+    width: 261px;
+    height: 52px;
+    background: #F1CDB3;
+	border-radius: 100px;
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 17px;
+	letter-spacing: 1px;
+	transition: 0.1s;
+}
+
+.btn-pets:hover {
+    background: #FDDCC4;
+}
+
+.help {
+    width: 1280px;
+    height: 611px;
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.help-content {
+    margin-top: 80px;
+    width: 1200px;
+    height: 431px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h2-help-content {
+    margin: 0 auto;
+    width: 308px;
+    text-align: center;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 1.9px;
+    line-height: 45px;
+    color: #545454;
+}
+
+.help-list {
+    width: 1026px;
+    height: 281px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-list {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 120px;
+}
+
+.card-list:nth-child(5) {
+    margin-right: 0;
+}
+.card-list:nth-child(9) {
+    margin-right: 0;
+}
+
+/* .card-list-img {
+
+} */
+
+.card-list-name {
+    padding-top: 30px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1.13px;
+    line-height: 23px;
+    color: #545454;
+}
+
+.donation {
+    width: 1280px;
+    height: 462px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6F6F6;
+}
+
+.donation-content {
+    width: 915px;
+    height: 282px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.donation-dog {
+    width: 505px;
+    height: 261px;
+}
+
+.donation-content-block {
+    width: 380px;
+    height: 282px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h2-donat-content {
+    font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 35px;
+    letter-spacing: 2.1px;
+	color: #545454;
+}
+
+.h3-donat-content {
+    margin-top: 25px;
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 0.9px;
+	color: #545454;
+}
+
+.donat-card {
+    margin-top: 20px;
+	width: 349px;
+	height: 43px;
+	background: #F1CDB3;
+	border-radius: 9px;
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 1.2px;
+}
+
+.donat-card > img {
+    margin-right: 15px;
+}
+
+.p-donat-content { 
+    padding-top: 21px;
+	width: 380px;
+	font-family: 'Arial';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: #B2B2B2;
+}
+
+footer {
+    width: 1280px;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: url('assets/images/header/start-screen-gradient-background.png');
+}
+
+.footer-content {
+    width: 1200px;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    margin-top: 16px;
+    width: 278px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h2-contacts {
+    font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 45px;
+	letter-spacing: 2.08px;
+	color: #FFFFFF;
+}
+
+.contacts-a {
+    display: flex;
+	align-items: center;
+	width: 251px;
+	height: 32px;
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1.2px;
+    color: #F1CDB3;
+    margin-right: 20px;
+}
+
+.contacts-a > img {
+    padding-right: 20px;
+}
+
+.locations {
+    margin-top: 16px;
+    width: 302px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-puppy {
+    width: 300px;
+    height: 310px;
+}
+
+.contacts-a2 {
+    margin-top: 34px;
+	display: flex;
+	align-items: center;
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1.2px;
+	line-height: 23px;
+    color: #F1CDB3;
+}
+
+.contacts-a2 > img {
+    padding-right: 20px;
 }

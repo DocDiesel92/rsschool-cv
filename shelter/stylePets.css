@@ -205,7 +205,6 @@ main {
 }
 
 .card-navigation {
-    margin: 0 auto;
     width: 340px;
     height: 52px;
     display: flex;

@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	border: 0;
+	scroll-behavior: smooth;
 }
 *,*:before,*:after{
 	-moz-box-sizing: border-box;
@@ -27,6 +28,7 @@ button{cursor: pointer;}
 button{padding:0;border:0;margin:0;}
 button::-moz-focus-inner {padding:0;border:0;margin:0;}
 a, a:visited{text-decoration: none;}
+a {color: inherit;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img {vertical-align: top;
@@ -39,12 +41,8 @@ h1,h2,h3,h4,h5,span,p {
 	cursor: default;
 }
 	-------------------------
-html {
-	scroll-behavior: smooth;
-}
-
 body {
-    background: #211F20;
+    background: linear-gradient(90deg, rgba(91,72,58,1) 0%, rgba(38,36,37,1) 94%);
 }
 
 .wrapper {

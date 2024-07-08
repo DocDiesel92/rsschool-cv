@@ -173,6 +173,16 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+.card:hover {
+    background: #FFFFFF;
+}
+.card:hover > .pets-btn {
+    border: 2px solid #FDDCC4;
+    background: #FDDCC4;
 }
 
 .img-pets-photo {
@@ -219,6 +229,17 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+.nav-circle:nth-child(-n+2) {
+    border: 2px solid #CDCDCD;
+    cursor: not-allowed;
+}
+.nav-circle:nth-child(+n+4):hover {
+    border: 0px solid #FDDCC4;
+    background: #FDDCC4;
 }
 
 .arrowD-left {

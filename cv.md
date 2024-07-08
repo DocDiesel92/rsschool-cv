@@ -34,14 +34,14 @@ const codePre = document.querySelector('code');
 - [htmlacademy](https://htmlacademy.ru/ "htmlacademy")
 - [youtube](https://www.youtube.com/c/FreelancerLifeStyle/videos "youtube")
 - [learn.javascript](https://learn.javascript.ru/ "learn.javascript")
+
 - ## Languages:
-* Russian
-* English
+- Russian
+- English
 
 ------------
 
-
 English
-Level B2, i am studying and trying to improve my English level
+Level A2, i am studying and trying to improve my English level
 
 ------------

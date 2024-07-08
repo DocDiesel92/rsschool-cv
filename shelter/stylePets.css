@@ -1,0 +1,337 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+    scroll-behavior: smooth !important;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button{padding:0;border:0;margin:0;}
+button::-moz-focus-inner {padding:0;border:0;margin:0;}
+a, a:visited{text-decoration: none;}
+a {color: inherit;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img {vertical-align: top;
+    border:0;
+    padding:0;
+    font-size: 100%;
+    margin:0;
+    font: inherit;}
+h1,h2,h3,h4,h5,span,p {
+	cursor: default;
+}
+	-------------------------
+
+body {
+    background: white;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+header {
+    padding: 30px 40px 0px 40px;
+    width: 1280px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+}
+
+.logo-nav {
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 190px;
+    height: 60px;
+}
+
+.h1-logo {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 2.1px;
+    line-height: 36px;
+    color: #545454;
+    cursor: pointer;
+}
+
+.h2-sublogo {
+    padding-top: 10px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1.29px;
+    text-align: center;
+    color: #292929;
+    cursor: pointer;
+}
+
+.nav {
+    width: 443px;
+    height: 27px;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-li {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    line-height: 23px;
+    cursor: pointer;
+    transition: 0.1s;
+    user-select: none;
+    color: #545454;
+}
+
+.nav-li:hover {
+    color: #292929;
+}
+
+.li-active {
+    color: #292929;
+    transition: 0.1s;
+    border-bottom: 3px solid #F1CDB3;
+}
+
+main {
+    width: 1280px;
+    height: 1342px;
+    display: flex;
+    justify-content: center;
+    background: #FAFAFA;
+}
+
+.pets-content {
+    margin-top: 80px;
+    width: 1200px;
+    height: 1162px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.h2-heading-content {
+    text-align: center;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    color: #545454;
+    line-height: 45px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.card-content {
+    width: 1200px;
+    height: 930px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 270px;
+    height: 435px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+.card:hover {
+    background: #FFFFFF;
+}
+.card:hover > .pets-btn {
+    border: 2px solid #FDDCC4;
+    background: #FDDCC4;
+}
+
+.img-pets-photo {
+    margin-bottom: 30px;
+}
+
+.h3-pets-name {
+    margin-bottom: 30px;
+    text-align: center;
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 20px;
+    letter-spacing: 1.29px;
+	color: #545454;
+}
+
+.pets-btn {
+    width: 187px;
+	height: 52px;
+	border: 2px solid #F1CDB3;
+	border-radius: 100px;
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 17px;
+	letter-spacing: 1px;
+	color: #292929;
+	transition: 0.1s;
+    background: none;
+    color: #292929;
+}
+
+.card-navigation {
+    width: 340px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-circle {
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+.nav-circle:nth-child(-n+2) {
+    border: 2px solid #CDCDCD;
+    cursor: not-allowed;
+}
+.nav-circle:nth-child(+n+4):hover {
+    border: 0px solid #FDDCC4;
+    background: #FDDCC4;
+}
+
+.arrowD-left {
+    border-color: #CDCDCD;
+}
+
+.arrow-left {
+    border-color: #CDCDCD;
+}
+
+.number {
+    border: unset;
+    background: #F1CDB3;
+}
+
+footer {
+    width: 1280px;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: url('assets/images/header/start-screen-gradient-background.png');
+}
+
+.footer-content {
+    width: 1200px;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    margin-top: 16px;
+    width: 278px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h2-contacts {
+    font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 45px;
+	letter-spacing: 2.08px;
+	color: #FFFFFF;
+}
+
+.contacts-a {
+    display: flex;
+	align-items: center;
+	width: 251px;
+	height: 32px;
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1.2px;
+    color: #F1CDB3;
+    margin-right: 20px;
+}
+
+.contacts-a > img {
+    padding-right: 20px;
+}
+
+.locations {
+    margin-top: 16px;
+    width: 302px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-puppy {
+    width: 300px;
+    height: 310px;
+}
+
+.contacts-a2 {
+    margin-top: 34px;
+	display: flex;
+	align-items: center;
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1.2px;
+	line-height: 23px;
+    color: #F1CDB3;
+}
+
+.contacts-a2 > img {
+    padding-right: 20px;
+}

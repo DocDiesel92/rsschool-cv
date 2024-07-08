@@ -21,6 +21,7 @@ html,body{
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+    background: linear-gradient(90deg, rgba(91,72,58,1) 0%, rgba(38,36,37,1) 94%);
 }
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
@@ -41,6 +42,7 @@ h1,h2,h3,h4,h5,span,p {
 	cursor: default;
 }
 	-------------------------
+
 body {
     background: linear-gradient(90deg, rgba(91,72,58,1) 0%, rgba(38,36,37,1) 94%);
 }
